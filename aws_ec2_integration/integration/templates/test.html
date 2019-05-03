@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AWS Management Console</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+</head>
+<body bgcolor="#33CEFF">
+    <center><h1>AWS Management Console</h1></center>
+    <hr>
+    {{ context }}
+<table style="width=100%">
+    <thead>
+        <tr>
+            <th>Node Name</th>
+            <th>Ip Address</th>
+            <th>Status</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Skillweb1</td>
+        <td>10.0.0.0</td>
+        <td>running</td>
+        <td><a href="#start">start</a> <a href="#stop">stop</a> <a href="#reboot">reboot</a></td>
+    </tr>
+    <tr>
+        <td>Skillweb2</td>
+        <td>10.0.0.1</td>
+        <td>running</td>
+        <td><a href="#start">start</a> <a href="#stop">stop</a> <a href="#reboot">reboot</a></td>
+    </tr>
+    <tr>
+        <td>Skillweb3</td>
+        <td>10.0.0.2</td>
+        <td>stopped</td>
+        <td><a href="#start">start</a> <a href="#stop">stop</a> <a href="#reboot">reboot</a></td
+    </tr>
+    <tr>
+        <td>Skillweb4</td>
+        <td>10.0.0.3</td>
+        <td>running</td>
+        <td><a href="#start">start</a> <a href="#stop">stop</a> <a href="#reboot">reboot</a></td>
+    </tr>
+    <tr>
+        <td>Skillweb5</td>
+        <td>10.0.0.4</td>
+        <td>stopped</td>
+        <td><a href="#start">start</a> <a href="#stop">stop</a> <a href="#reboot">reboot</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
