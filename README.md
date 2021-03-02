@@ -11,5 +11,4 @@ aws api integration
 2. Start an Instance
 3. Stop an Instance
 4. Terminate an Instance
-5.  
 
